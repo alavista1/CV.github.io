@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-
 ---
 <h1> <strong> <em>Curriculm vitae</em> </strong> </h1>
 <p> <strong>Esperienze,attività e certificati:</strong>
