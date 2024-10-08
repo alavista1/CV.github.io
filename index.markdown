@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-profile_picture:
-  src: /assets/img/profile-pic.jpg
+
 ---
 <h1> <strong> <em>Curriculm vitae</em> </strong> </h1>
 <p> <strong>Esperienze,attività e certificati:</strong>
@@ -19,3 +18,4 @@ profile_picture:
 </ul>
 
 </p>
+<img src="https://people.unipi.it/static/istologia/cherubino_hi_res_.jpg" alt="Logo università Pisa" style="width:200px">

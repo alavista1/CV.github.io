@@ -18,19 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Progetto Lab1
+email: a.lavista1@studenti.unipi.it
+author: Alessandro Lavista
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Progetto per labratorio di introduzione alla Matematica computazionale.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  alavista1
 
 # Build settings
-theme: bay_jekyll_theme
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -54,19 +52,16 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-header:
-  pages:
-    - name: CV
-      slug: /     # <-- index.md
-    - name: Informazioni  # <-- informazioni.md
+minima:
+   skin:dark
 
-footer:
-  show_powered_by: true
-  contact:
-    - type: email
-      name: a.lavista1@studenti.unipi.it
-      value: a.lavista1@studenti.unipi.it
-  follow:
-    - type: github
-      name: GitHub
-      link: http://github.com/alavista1
+header_pages:
+    - informazioni.md
+
+
+minima:
+    social_links:
+        - platform: github
+          user_url: " https://github.com/alavista1/CV.github.io"
+          title: Pagina Github del progetto
+  
