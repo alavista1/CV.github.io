@@ -2,6 +2,7 @@
 layout: page
 title: Informazioni
 slug: /informazioni
+permalink: /informazioni
 ---
 
 <p> 
