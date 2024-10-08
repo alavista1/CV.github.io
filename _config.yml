@@ -18,19 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Progetto Lab1
-email: a.lavista1@studenti.unipi.it
-author: Alessandro Lavista
-description: >- # this means to ignore newlines until "baseurl:"
-  Progetto per labratorio di introduzione alla Matematica computazionale.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  alavista1
-
-# Build settings
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,6 +39,19 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+title: Progetto Lab1
+email: a.lavista1@studenti.unipi.it
+author: Alessandro Lavista
+description: >- # this means to ignore newlines until "baseurl:"
+  Progetto per labratorio di introduzione alla Matematica computazionale.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  alavista1
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
 minima:
    skin:dark
 
